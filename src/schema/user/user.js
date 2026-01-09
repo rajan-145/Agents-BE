@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   createdAt: { type: Date },
-  isDeleted: { type: Boolean },
+  isDeleted: { type: Boolean, default: false },
   updatedAt: { type: Date },
   deletedAt: { type: Date },
 });

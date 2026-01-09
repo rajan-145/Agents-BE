@@ -20,4 +20,4 @@ const loginUser = async (data) => {
   return { user, token };
 };
 
-exports.module = loginUser;
+module.exports = loginUser;
